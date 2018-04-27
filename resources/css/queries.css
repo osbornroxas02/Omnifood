@@ -63,6 +63,12 @@
 		margin: 0% 0 4% 0%; 
 	}
 	
+	.row {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	/*added this for more bottom padding of drop down list*/
+	
 	.main-nav { display: none; }
 	.mobile-nav-icon { display: inline-block; }
 	/* this replaces original main-nav inorder for hamburger icon to be used */
@@ -79,7 +85,7 @@
 	.mian-nav li:visited { 
 		display: block; /*stack them*/
 		border: 0; /*mobile phone doesnt need border. it can just hover*/ 
-		padding: 10px 0;
+		padding: 15px 0;
 		font-size: 100%;
 	}
 	

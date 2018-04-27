@@ -70,12 +70,20 @@ $(document).ready(function() {
 	
 	
 	
-	/* Mobile navigation */
+	/* Mobile nav */
 	
 	$('.js--nav-icon').click(function() {
 		var nav = $('.js--main-nav'); /*create a var nav so you do have to repeat*/
+		var icon = $('.js--nav-icon i');/*var for X icon*/
 		
-		nav.slideToggle(200)/*create the open close effect*/
+		nav.slideToggle(200);/*create the open close effect*/
+		if (icon.hasClass('ion-navicon-round')) {/*if icon has this class*/
+			icon.addClass('ion-close-round');/*then add this class*/
+			icon.removeClass('ion-navicon-round');/*and remove this class*/
+		} else {
+			icon.addClass('ion-navicon-round');/*else switch around*/
+			icon.remove('ion-close-round');
+		}
 	}); 
 	
 	
