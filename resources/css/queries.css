@@ -22,7 +22,7 @@
     
     .steps-box { margin-top: 10px; }
     .steps-box:lastchild { margin-top: 10px; }
-    .works-step { margin-bottom: 40px; }
+    .works-step { margin-bottom: 40px; } /*remove to center */
     .works-step:last-of-type { margin-bottom: 60px; }
 	
     .app-screen { width: 50%; }
@@ -113,9 +113,11 @@
 		padding: 4px;
 		font-size: 120%;
 	}
-		
+
+/*
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+*/
 }
 
 /*small phones: from 0 to 480px*/
