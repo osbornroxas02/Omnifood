@@ -82,7 +82,7 @@
 	.main-nav li { display: block; }
 	
 	.main-nav li:link,
-	.main-nav li:visited { 
+	.mian-nav li:visited { 
 		display: block; /*stack them*/
 		border: 0; /*mobile phone doesnt need border. it can just hover*/ 
 		padding: 15px 0;
@@ -138,7 +138,6 @@
 		height: auto;
 		padding: 30px 0;
 	}
-}
 	
 	
 /*small phones: from 0 to 480px*/
@@ -147,5 +146,4 @@
 	.contact-form { width: 100%; }
 	h2 { font-size: 140%; }	
 }
-
 	

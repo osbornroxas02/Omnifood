@@ -43,9 +43,13 @@ body {
     margin: 0 auto;
 }
 
-section { padding: 80px 0; }
+section {
+    padding: 80px 0;
+}
 
-.box { padding: 1%; }
+.box {
+    padding: 1%;
+}
 
 
 /* -------- HEADINGS ------- */
@@ -152,7 +156,8 @@ input[type=submit] {
     border-radius: 200px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-} /* link = <a> look same in normal state & visisted*/
+}
+/* link = <a> look same in normal state & visisted*/
 
 .btn-full:link,
 .btn-full:visited,
@@ -208,7 +213,8 @@ header {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
-} /*position: absolute is the only way to horizontaly/verticaly posiiton it. Translate 1/2 of width & height up to the top & left*/
+}
+/*position: absolute is the only way to horizontaly/verticaly posiiton it. Translate 1/2 of width & height up to the top & left*/
 
 .logo {
     height: 100px;
@@ -250,7 +256,9 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active { border-bottom: 2px solid #e67e22; }
+.main-nav li a:active {
+    border-bottom: 2x solid #e67e22;
+}
 
 
 /* Mobile Navi */
@@ -293,13 +301,17 @@ header {
 /* ----------------------------------------------------------- */
 /* FEATURES */
 /* ----------------------------------------------------------- */
-.section-features .long-copy { margin-bottom: 30px; }
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
 
 
 /* ----------------------------------------------------------- */
 /* MEALS */
 /* ----------------------------------------------------------- */
-.section-meals { padding: 0; }/*eliminates large padding since it has no header*/
+.section-meals {
+    padding: 0; /*eliminates large padding since it has no header*/
+}
 
 .meal-showcase {
     list-style: none;
@@ -340,7 +352,9 @@ header {
 /* ----------------------------------------------------------- */
 /* HOW IT WORKS*/
 /* ----------------------------------------------------------- */
-.section-steps { background-color: #f4f4f4; }
+.section-steps {
+    background-color: #f4f4f4;
+}
 
 .steps-box:first-child {
     text-align: right; /*even if no text it works for all inline-block elements*/
@@ -353,10 +367,17 @@ header {
     margin-top: 70px;
 }
 
-.app-screen { width: 40%; } /*smaller img size*/
+.app-screen {
+    width: 40%; /*smaller img size*/
+}
 
-.works-step { margin-bottom: 50px; }
-.works-step:last-of-type { margin-bottom: 80px; } /*giving the last works-step 80px*/
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px; /*giving the last works-step 80px*/
+}
 
 .works-step div {
     color: #e67e22;
@@ -393,7 +414,9 @@ header {
     margin-bottom: 15px;
 }
 
-.city-feature { margin-bottom: 5px; }
+.city-feature {
+    margin-bottom: 5px;
+}
 
 /* ----------------------------------------------------------- */
 /*TESTIMONIALS*/
@@ -440,7 +463,9 @@ cite img {
 /* ----------------------------------------------------------- */
 /*SIGN UP*/
 /* ----------------------------------------------------------- */
-.section-plans { background-color: #f4f4f4; }
+.section-plans {
+    background-color: #f4f4f4;
+}
 
 .plan-box {
     background-color: #fff;
@@ -479,9 +504,17 @@ cite img {
     font-weight: 300; /*back to preset font weight */
 }
 
-.plan-price-meal { font-size: 80%; }
-.plan-box ul { list-style: none; }
-.plan-box ul li { padding: 5px 0; }
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
 
 /* ----------------------------------------------------------- */
 /*FORM*/
@@ -501,21 +534,25 @@ textarea {
     border: 1px solid #ccc;
 }
 
-textarea { height: 100px; }
+textarea {
+    height: 100px;
+}
 
-input[type=checkbox] { margin: 10px 5px 10px 0; }
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
 
 *:focus {outline: none;} /*eliminates blue border highlights on all*/
 
 .map-box {
 	width: 100%;
-	height: 630px;
+	height: 560px;
 	position: relative;
 }
 
 .map {
 	width: 100%;
-	height: 630px;
+	height: 560px;
 	position: relative;
 	z-index: 0;
 }
@@ -527,7 +564,7 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
 	right: 0;
 	background-color: rgba(255,255,255, 0.8);
 	z-index: 10;
-	height: 630px;
+	height: 560px;
 	padding-top: 40px;
 }
 
@@ -536,12 +573,8 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
 	margin: 0 auto;
 	padding: 10px;
 	border-radius: 3px;
-	margin-bottom: 30px;
-	color: #333;
+	margin-bottom: 20px;
 }
-
-.success { background-color: rgba(38, 191, 68, 0.8); }
-.error { background-color: rgba(209, 46, 46, 0.8); }
 
 /* ----------------------------------------------------------- */
 /*FOOOTER*/
@@ -604,10 +637,21 @@ footer {
 }
 
 
-.ion-social-facebook:hover { color: #3b5998; }
-.ion-social-twitter:hover { color: #00aced; }
-.ion-social-googleplus:hover { color: #dd4b39; }
-.ion-social-instagram:hover { color: #517fa4; }
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
 
 footer p {
     color: #888;

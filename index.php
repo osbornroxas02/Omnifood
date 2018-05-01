@@ -339,18 +339,15 @@
 						
 						<div class="row">
 							
-							<!-- < ?php
-
-								<div class="form-messages success">
-									Thank you! Your message had been sent. 
-								</div>
-								<!-- <div class="form-messages error">
-									Oops! Something went wrong. Please Try again!
-								</div> 
-
-							?> -->
-							<!-- commented out. Since website is not launced it will effect code -->
-							
+							<?php
+							if($_GET['success'] == 1) {
+								echo "<div class=\"form-messages success\">Thank you! Your message had been sent.</div>";
+							}
+							if($_GET['success'] == -1) {
+								echo "<div class=\"form-messages error\">Oops! Something went wrong. Please Try again!</div>";
+							}
+							?>
+							<!-- since website is not launced it will effect code (?>) & spacing--> 
 						</div>
 						
 						<div class="row">	
