@@ -99,9 +99,10 @@ $(document).ready(function() {
 		lng: -9.2302432,
 		title: 'Lisbon',
 		infoWindow: {
-  			content: '<p>Our Lisbon HQ</p>'
+  			content:'<p>Our Lisbon HQ</p>'
 		}
 	});
+	
 });
 				  
 				  
